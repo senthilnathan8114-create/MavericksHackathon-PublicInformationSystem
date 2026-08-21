@@ -1,0 +1,29 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment and local data
+.env
+.env.*
+!.env.example
+data/*.db
+data/*.db-journal
+
+# Tooling
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
